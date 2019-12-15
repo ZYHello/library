@@ -1,0 +1,83 @@
+body{
+  background-image: url('./background.png') ;
+  background-repeat: no-repeat;
+  background-size: 75% ;
+  background-position: bottom;
+  margin: 0px ;
+}
+#header{
+  height: 70px ;
+  width: 100% ;
+  background-color: #dc1414 ;
+}
+
+#footer{
+  height: 60px ;
+  width: 100% ;
+  background-color: #dc1414 ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  color: white ;
+  font-size: 12px ;
+  text-align: center ;
+  line-height: 1.5 ;
+  color:rgba(255,255,255,0.5) ;
+  position: absolute ;
+}
+
+.logo{
+  margin-left: 2% ;
+  margin-top: 10px ;
+  height: 90% ;
+  width: 25% ;
+  float: left ;
+  display: inline-block ;
+  background-image: url('./headerlogo.svg') ;
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+
+.account{
+  height: 40px ;
+  width: 40px ;
+  margin-top: 25px ;
+  margin-right:5% ;
+  float: right ;
+  display: inline-block ;
+  background-image: url('./account.svg') ;
+  background-repeat: no-repeat ;
+  background-size: 100% ;
+}
+
+.wrapper{
+  margin: 0 auto ;
+  margin-top: 33% ;
+  display: block ;
+  height: 60px ;
+  width: 500px ;
+}
+
+.input{
+  height: 40px ;
+  width: 380px ;
+  float: left ;
+  border: 2px solid white ;
+  background-color: white ;
+  color: #666666 ;
+  
+  font-size: 20px ;
+  display: inline-block ;
+  box-shadow: 2px 2px 3px 3px #e1e1e1 ;
+}
+
+.button{
+  height: 46px ;
+  width: 100px ;
+  float: right ;
+  background-color: #dc1414 ;
+  border: 0px solid #dc1414 ;
+  color: white ;
+  font-size: 20px ;
+  display: inline-block ;
+  box-shadow: 2px 2px 3px 3px  #e1e1e1 ;
+}
+
