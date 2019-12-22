@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import LibBook from './LibBook'
+import { Link } from 'react-router-dom';
 
 class LibBookCase extends Component{
   constructor(){
@@ -8,25 +8,31 @@ class LibBookCase extends Component{
 
   render() {
     return(
-      <div className="book" onclick="">
-        <span className="book-photo"></span>
-
-        <span className="book-imformation">
-          <div className="book-title">
-            <span className="book-name"></span>
-            <span className="book-mark"></span>
-          </div>
-            
-          <span className="book-background">
-            <p className="author">书籍作者：</p>、
-            <p className="publisher">出版商：</p>
-            <p className="date">出版日期：</p>
-            <p className="isbn">ISBN:</p>
+       <Link to="/LibBook">
+        <div className="book">
+          <span className="book-photo">
+            <img className="error" src="image-error.png"/>
           </span>
-        </span>
+  
+          <span className="book-imformation">
+            <span className="book-title">
+              <span className="red">r</span>
+                人类简史：从动物到上帝
+            </span>
 
-        <span><LibBook/></span>
-      </div>
+            <span className="book-background">
+              <p className="author">书籍作者：</p>
+              <p className="publisher">出版商：</p>
+              <p className="date">出版日期：</p>
+            </span>
+
+            <span className="book-mark">
+              <p><b>★★★★☆ 4.0</b></p>
+            </span>
+          </span>
+        
+        </div>
+      </Link>
     )
   }
 }

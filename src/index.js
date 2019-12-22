@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import LibApp from './LibApp'
+import App from './App'
 import './LibApp.css'
 
 ReactDOM.render(
-    <LibApp /> , 
+    <App /> , 
     document.getElementById('root')
 )

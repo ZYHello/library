@@ -8,15 +8,21 @@ class LibList extends Component{
 
   render(){
     return (
-      <div className="list">
-        <div className="list-wrapper">
-          <input className="list-input"/>
-          <button className="list-button">检索</button>
+      <div className="list-body">
+        <div className="header">
+          <span className='logo'> </span>
+          <span className='account'></span>
         </div>
 
-        <div className="list-number"></div>
-        <LibBookCase/>
+        <div className="list-wrapper">
+          <input className="input"/>
+          <button className="button">检索</button>
+        </div>
 
+        <div className="list-number">共检测到 本书</div>
+        <LibBookCase/>
+        
+        <div className="list-image"></div>
       </div>
       )
   }
